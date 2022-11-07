@@ -18,16 +18,6 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 
 
-
-#TODO: adjust the over-80 and over-60 vaccination tracking
-#(current vaccinations aren't just people over 80, it's healthcare workers too)
-#TODO: adjust the calculations of milestone dates
-#(needs to be actually calculated, not just counting forward from today's date)
-#(counting forward works for dates through end of this year, but not beyond that because the dataframe doesn't go that far out)
-#TODO: add expected vaccine deliveries to graphs
-#TODO: adjust projections to account for vaccine deliveries
-
-
 #-------Collect and Store Data-----------------------------------------
 
 #save population data as constants
